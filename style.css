@@ -1,0 +1,76 @@
+/* Color palette from: https://coolors.co/palette/012a36-29274c-7e52a0-d295bf-e6bccd and https://coolors.co/palette/8e9aaf-cbc0d3-efd3d7-feeafa-dee2ff*/
+
+body {
+    background-color: #CBC0D3;
+    color: #012A36;
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+h1 {
+    font-family: Calibri;   /* Changes the font of the header */
+    color: #29274C;
+    background-color: #8E9AAF;
+    padding: 20px;
+    text-align: center;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-color: #012A36;
+}
+
+#content h2 {
+    font-weight: bold;
+}
+
+#content {
+    font-family: Calibri;   /* Changes the font of the content in the website */
+    background-color: #8E9AAF;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 15px;
+    border-style: outset;   /* 'Outset' makes a 3D looking border around the content. */
+    border-color: #8E9AAF;
+    border-width: 6px;
+}
+
+nav ul h3 {
+    padding-right: 700px;
+    color: white;
+    margin: 0;
+    font-size: 25px;
+}
+
+nav ul {
+    list-style-type: none;
+    background-color: #29274C;
+    display: flex;
+    justify-content: right;
+    padding: 15px;
+    margin-top: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #DEE2FF;
+    padding: 25px;
+}
+
+nav ul li a:hover {
+    background-color: #0e0c3f;
+}
+
+.image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.imageSize {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
